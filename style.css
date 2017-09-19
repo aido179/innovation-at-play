@@ -10,7 +10,15 @@ body{
 h1, h2, h3, h4{
   font-family: 'Lato', sans-serif;
 }
-
+h4{
+  margin:0;
+}
+h3{
+  margin-top:2em;
+}
+h2{
+  margin: 3em 0 1em 0;
+}
 p{
   font-weight: lighter;
   line-height: 1.8em;
@@ -102,6 +110,12 @@ tbody{
 }
 td{
   padding:1em;
+}
+td:nth-child(2) {
+  width: 30%;
+}
+.subtd{
+  padding-left:3em;
 }
 
 
